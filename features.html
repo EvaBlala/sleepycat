@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Sleepy Cat – Функционал</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+  <script src="myproject.js"></script>
+</head>
+
+<body>
+
+<button id="theme-toggle">Тёмная тема</button>
+
+<header>
+  <h1>SleepyCat – Функционал приложения</h1>
+  <h3>Что умеет наш котик?</h3>
+
+  <nav class="main-nav">
+    <a href="index.html">Главная</a>
+    <a href="features.html">Функционал</a>
+    <a href="content.html">Контент</a>
+   <a href="howitworks.html">Скачать</a>
+  </nav>
+</header>
+
+<section class="features-section">
+  <h2>Функционал SleepyCat</h2>
+  <ol>
+    <li>
+      Персональные подборки
+      <p>Алгоритм подбирает медитации под ваше настроение и состояние.</p>
+    </li>
+    <li>
+      Таймер сна
+      <p>Звуки и медитации автоматически выключаются, когда вы засыпаете.</p>
+    </li>
+  </ol>
+
+  <section class="relax-timer">
+  <h2>10 секунд спокойствия</h2>
+  <p id="timer-text">Нажми «Старт», чтобы начать.</p>
+
+  <div class="timer-circle">
+    <span id="timer-value">10</span>
+  </div>
+
+  <button id="timer-start-btn" class="primary-btn">Старт</button>
+</section>
+
+ 
+  <!-- ПУЗЫРЬКИ СПОКОЙСТВИЯ -->
+  <section class="relax-timer calm-bubbles">
+    <h2>Пузырьки спокойствия</h2>
+    <p>Кликни по зоне ниже — и смотри, как улетают тревоги </p>
+
+    <div class="bubbles-area" id="bubbles-area">
+      нажми здесь 🫧
+    </div>
+  </section>
+
+  <!-- ПРОВЕРКА УСТАЛОСТИ -->
+  <section class="relax-timer tired-check">
+    <h2>Проверка усталости</h2>
+    <p id="tired-text">Как ты себя чувствуешь?</p>
+
+    <div class="tired-buttons">
+      <button class="primary-btn tired-btn" data-tired="high">Очень устал</button>
+      <button class="primary-btn tired-btn" data-tired="medium">Немножко устал </button>
+      <button class="primary-btn tired-btn" data-tired="low">Хорошо</button>
+    </div>
+  </section>
+
+  <!-- СЛУЧАЙНЫЙ ЗВУК ПРИРОДЫ -->
+  <section class="relax-timer nature-sound">
+    <h2>Случайный звук природы</h2>
+    <p id="sound-text">Нажми на кнопку — мы подберём тебе атмосферу </p>
+
+    <button id="sound-btn" class="primary-btn">
+      Выбрать звук 
+    </button>
+  </section>
+
+</section>
+
+<footer>
+  <nav class="footer-nav">
+    <a href="index.html">Главная</a>
+    <a href="features.html">Функционал</a>
+    <a href="content.html">Контент</a>
+    <a href="howitworks.html">Скачать</a>
+  </nav>
+
+  <p>© 2024 SleepyCat. Все права защищены.</p>
+</footer>
+</body>
+</html>
